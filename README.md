@@ -15,6 +15,7 @@ create table notes (
   content text,
   created_at timestamp with time zone default now()
 );
+
 Why this schema?
 
 id as a UUID ensures uniqueness and supports distributed systems.
